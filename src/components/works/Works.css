@@ -1,0 +1,111 @@
+#works {
+  min-height: calc(100vh - 10rem);
+  margin: 0 auto;
+  max-width: 60rem;
+  width: 1000vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  text-align: center;
+  margin-bottom: 3.4rem;
+  /* height: 2rem; */
+}
+
+ .tittle {
+  margin-top: 4rem;
+  font-size: 3rem;
+}
+/*
+.descr {
+  font-weight: 300;
+  font-size: 1rem;
+  max-width: 45rem;
+}
+
+.workImgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: 50rem;
+  flex-wrap: wrap;
+}
+
+.imgs {
+  object-fit: cover;
+  height: 15rem;
+  margin: 1rem;
+  border-radius: 4px;
+  transition: box-shadow 0.2s;
+}
+
+.imgs:hover {
+  box-shadow: 5px 5px 10px rgba(226, 211, 211, 0.15);
+} */
+
+.skillTitle2 {
+  font-size: 3rem;
+  font-weight: 600rem;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  
+}
+
+.skillText2 > p {
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin-top: 3px;
+  color: rgb(167, 163, 163);
+}
+
+.skillBars2 {
+  margin: 1.5rem;
+  width: 100vw;
+  max-width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillBar2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: rgb(50, 50, 50);
+}
+.skills3 {
+  object-fit: cover;
+  height: 17rem;
+  /* max-width: 50%; */
+  margin-right: 2rem;
+  margin-top: 1rem;
+  border-radius: 2px;
+  width: 20rem;
+}
+.projectBtn {
+  padding: 1rem;
+  margin-left: 8rem;
+  justify-content: center;
+  border-radius: 2rem;
+  transition-duration: 0.3s;
+  background: rgb(247, 245, 244);
+  border: none;
+}
+.projectBtn:hover {
+  transform: scale(1.1);
+  background: rgb(241, 243, 103);
+}
+.h3 {
+  font-size: 150px;
+}
+@media screen and (max-width: 585px) {
+  .workImgs {
+    height: 48vw;
+  }
+}
