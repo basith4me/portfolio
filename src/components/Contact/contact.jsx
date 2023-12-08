@@ -81,7 +81,7 @@ const Contact = () => {
           </button>
           <div className="links">
             <a
-              href="https://github.com/"
+              href="https://github.com/basith4me"
               target="_blank"
               rel="noopener noreferrer"
             >

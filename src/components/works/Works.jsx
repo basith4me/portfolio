@@ -1,6 +1,7 @@
 import React from "react";
 import "./Works.css";
 import wrkImgs from "../../assets/doctor.png";
+import mernImg from "../../assets/mern.png";
 // import '../skills/skills.css';
 
 const Works = () => {
@@ -21,26 +22,28 @@ const Works = () => {
               streamlining the process of scheduling medical appointments. This
               user-friendly web application allows patients to book appointments
               online, simplifying healthcare access and improving efficiency.
+              this system reduce lots of human effort and time. no need any phone calls or physical visits
             </p>
-            <a href="">
+            <a href="https://github.com/basith4me/doctor-appointment-booking.git">
               <button className="projectBtn">view project</button>
             </a>
           </div>
         </div>
 
         <div className="skillBar2">
-          <img src={wrkImgs} alt="" className="skills3" />
+          <img src={mernImg} alt="" className="skills3" />
           <div className="skillText2">
-            <h3>Mobile app development</h3>
+            <h3>MERN stack book-store</h3>
             <p>
-              I specialize in creating high-performance, cross-platform mobile
-              applications using React Native. Leveraging the power of
-              JavaScript and React, I craft stunning and efficient apps that
-              work seamlessly on both iOS and Android devices. From concept to
-              deployment, I'm committed to delivering user-friendly,
-              feature-rich mobile solutions that meet your business objectives.
+              I have successfully developed a simple MERN (MongoDB, Express.js,
+              React, Node.js) stack Book Store CRUD (Create, Read, Update,
+              Delete) application. This project showcases my proficiency in
+              full-stack development, including database management, server-side
+              scripting, and dynamic front-end interactions. It's a practical
+              demonstration of my skills in building scalable and interactive
+              web applications.
             </p>
-            <a href="">
+            <a href="https://github.com/basith4me/book-store-mern.git">
               <button className="projectBtn">view project</button>
             </a>
           </div>
